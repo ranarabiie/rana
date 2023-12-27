@@ -340,6 +340,8 @@ margin-top: 20;
     
     }
     
+
+
     .intro{
       border-radius: 8px;
     height:70px;
@@ -905,39 +907,38 @@ margin-right: 500px;
 display: none;  }
 
 
-
 .myname{
   position:-webkit-sticky;
-margin-right: 30px;
+margin-right: 130px;
 margin-top: 200px;
 }
 
 .img1{
 margin-top: 100px;
-  width: 337px;
+  width: 346px;
   
 }
 
 .savw{
-  margin-right: 30px;
+  margin-right: 230px;
 }
 
 
 .sec1{
   position: absolute;
-  width: 366px;
+  width: 346px;
   padding-bottom: 150px;
 margin-right: -8;
-margin-top: -173;
+margin-top: -216;
   display: block;
   background-color:#fee6f5;
 }
 .myworkk{
-  margin-right: 110px;
+  margin-right: 130px;
 }
 #ar1{
-  padding: 10px 50px 10px 60px;
-  margin-right: 40px;
+  padding: 10px 50px 10px 80px;
+  margin-right: 10px;
 line-height: 100%;
 
 margin-top: 20px;
@@ -945,8 +946,8 @@ margin-top: 20px;
 }
 
 #wave2{
-  width: 767px;
-margin-top: 20px;
+  width: 345px;
+margin-top: 460px;
 
 }
 
@@ -955,26 +956,31 @@ margin-top: 20px;
 }
 
 .mywork{
-  margin-top: 90px;
-  margin-right: 350px;
+  margin-top: 490px;
+  margin-right: 110px;
 }
 
 .mywoork{
-  margin-top: 20px;
+  margin-top: 320px;
 }
 
 .svg1{
-margin-top: 580px;
-  margin-right: 250px;
+margin-top: 980px;
+  margin-right: 40px;
 }
 
-
+.img{
+  height: 200px;
+  width: 300px;
+  border-radius: 3px;
+  
+  }
       
 #card {
   
   border-radius: 8px;
-    height: 400px;
-    margin: 20px ;
+    height: 200px;
+    margin: -30px ;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.356);
 overflow: hidden;
 -webkit-animation: fade-in 2.5s linear both ;
@@ -983,21 +989,21 @@ animation: fade-in 2.5s linear  both;
 
 .intro{
   border-radius: 8px;
-height:70px;
-width: 600px;
+height:40px;
+width: 300px;
 padding: 8px;
 box-sizing: border-box;
 position: absolute;
 background: rgba(27, 37, 27, 0.363);
 color: white;
-bottom:20px;
+bottom:-30px;
 }
 
 
 h1{
     margin: -5px 6;
 text-align: left;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 p{
@@ -1009,74 +1015,286 @@ text-align: left;
 }
 
 #card:hover .intro {
-    height: 200px;
-    bottom: -40px;
+    height: 100px;
+    bottom: -30px;
     background: rgba(0, 0, 0, 0.438);
 }
 
-#card3:hover .intro3 {
-  height: 200px;
-  bottom: -40px;
-  background: rgba(0, 0, 0, 0.438);
-}
 #card:hover p{
     opacity: 1;
     visibility: visible;
 }
 
+#card3{
+  margin-top: -50;
+    height: 200px;
+    margin-right: -35;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.342);
+overflow: hidden;
+-webkit-animation: fade-in 3s linear both ;
+animation: fade-in 3s linear  both;
+border-radius: 8px;
 
-.img{
-  height: 500px;
-  width: 600px;
-  border-radius: 3px;
+}
+
+
+.intro3{
+  border-radius: 8px;
+height:40px;
+width: 300px;
+padding: 8px;
+box-sizing: border-box;
+position: absolute;
+background: rgba(27, 37, 27, 0.363);
+color: white;
+bottom: 0px;
+}
+
+
+
+
+#card3:hover .intro3{
+    height: 100px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.438);
+}
+
+#card3:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+#card4{
+  height: 200px;
+  margin-top: 100px;
+margin-right: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.342);
+overflow: hidden;
+-webkit-animation: fade-in 3s linear both ;
+animation: fade-in 3s linear  both;
+border-radius: 8px;
+}
+
+
+.intro4{
+border-radius: 8px;
+height:40px;
+width: 300px;
+padding: 8px;
+box-sizing: border-box;
+position: absolute;
+background: rgba(27, 37, 27, 0.363);
+color: white;
+bottom: 0px;
+}
+
+
+
+
+#card4:hover .intro4{
+  height: 240px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.438);
+}
+
+#card4:hover p{
+  opacity: 1;
+  visibility: visible;
+}
   
-  }
-  #card4{
-    margin-top: 50px;
-    margin-right: 30px;
-  }
-  
+
+
 #card5{
   margin-top: 300px;
+    height: 200px;
+    margin-right: 645px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.342);
+overflow: hidden;
+-webkit-animation: fade-in 2s linear both ;
+animation: fade-in 2s linear  both;
+border-radius: 8px;
 }
+
+
+.intro5{
+  border-radius: 8px;
+height:40px;
+width: 300px;
+padding: 8px;
+box-sizing: border-box;
+position: absolute;
+background: rgba(27, 37, 27, 0.363);
+color: white;
+bottom: 0px;
+}
+
+
+
+
+#card5:hover .intro5{
+    height: 100px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.438);
+}
+
+#card5:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+
 
 #card6{
-  margin-right: 30px;
-}
-#card7{
-  margin-right: 30px;
+  margin-top: 100;
+    height: 200px;
+    margin-right: 640px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.342);
+overflow: hidden;
+-webkit-animation: fade-in 3s linear both ;
+animation: fade-in 3s linear  both;
+border-radius: 8px;
+
 }
 
+
+.intro6{
+  border-radius: 8px;
+height:40px;
+width: 300px;
+padding: 8px;
+box-sizing: border-box;
+position: absolute;
+background: rgba(27, 37, 27, 0.363);
+color: white;
+bottom: 0px;
+}
+
+
+
+
+#card6:hover .intro6{
+    height: 100px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.438);
+}
+
+#card6:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+#card7{
+margin-top: 220;
+  height: 200px;
+  margin-right: -40px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.342);
+overflow: hidden;
+-webkit-animation: fade-in 3s linear both ;
+animation: fade-in 3s linear  both;
+border-radius: 8px;
+
+}
+
+
+.intro7{
+border-radius: 8px;
+height:40px;
+width: 300px;
+padding: 8px;
+box-sizing: border-box;
+position: absolute;
+background: rgba(27, 37, 27, 0.363);
+color: white;
+bottom: 0px;
+}
+
+
+
+
+#card7:hover .intro7{
+  height: 100px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.438);
+}
+
+#card7:hover p{
+  opacity: 1;
+  visibility: visible;
+}
 
 
 #wave5{
 
-  width: 300px;
+  width: 347px;
 }
 
 .sec3{
 
-  width: 273px;
+  width: 347px;
   margin-right: -8px;
-  margin-top: 98px;
+  margin-top: 28px;
 padding-bottom: 700px;
   background-color: #fee6f5;
 }
 
 .mywork3{
-  margin-right: 10px;
+  margin-right: 150px;
+  font-size: 20px;
 }
 
+
 form{
-  margin-right: 10px;
+display: none
 }
 
 
 .content{
-  margin-right: 10px;
+ 
+width: 200px;
+height: 326px;
+  margin-top: 265px;
+  margin-right: 80px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+position: absolute;
+  background-color: #dabbe2;
 }
 
+.content h4{
+  margin-right: 50px;
+  }
+  .content h5{
+    margin-right: 30px;
+    margin-top: 50px;
+    }
+    
+  .gamil{
+    margin-top: 30px;
+    width: 17px;
+    height: 15px;
+    margin-right: 165px;
+    position: absolute;
+  }
+
+  .tw{
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+    
+    margin-right: 75px;
+  }
+
+  .li{
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+   margin-right: 20px;
+  }
+
 .made{
-  margin-right: 10px;
+  font-size: 10px;
+  margin-right: 110px;
 }
 }
