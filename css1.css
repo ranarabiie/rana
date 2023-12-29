@@ -925,7 +925,7 @@ display: none;  }
 
 
 .myname{
-  position:-webkit-sticky;
+  position:absolute;
 margin-right: 130px;
 margin-top: 200px;
 }
