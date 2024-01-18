@@ -238,7 +238,7 @@ display: none;  }
 
 .myname{
   position:-webkit-sticky;
-margin-right: 130px;
+margin-right: 530px;
 margin-top: 200px;
 }
 
@@ -251,7 +251,7 @@ margin-top: 100px;
 
 .savw{
   margin-top: 130px;
-  margin-right: 220px;
+  margin-right: 620px;
 }
 
 
@@ -289,10 +289,13 @@ font-size: 23px;
 }
 
 #wave2{
-  width: 385px;
+  width: 1157px;
   position: absolute;
-margin-top: 1330px;
+margin-top: 600px;
 }
+
+
+
 
 
 }
