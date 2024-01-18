@@ -4,14 +4,265 @@
         new WOW().init();
        </script>
     <head>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
         <link rel="icon" href="img/favicon.ico" type="image/x-icon'/" >
-        <title>ranarabie</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css1.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">  
+        <title>ranarabie</title>
+       
+        <link rel="stylesheet" href="css1.css"> 
+        <style>
+            
+          .se1 h2{
+
+            line-height: 1px;
+height: 15px;
+                background-color: #c3a3d8;
+
+          }
+            h2{
+                
+                font-size: 45px;
+position: absolute;
+                margin-top: -560px;
+                margin-right: 500px;
+            }
+            .se1{
+                margin-top: 850px;
+                margin-right: 80px;
+              position: relative;  
+              height: 450px;
+              width: 1075px;
+              display: flex;
+              align-items: center;
+            }
+            
+            .swiper{
+              width: 950px;
+            }
+            
+            .card{
+              position: relative;
+              background: #fff;
+              border-radius: 20px;
+              height: 400px;
+              margin: 20px 0;
+              box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.1);
+            }
+            
+            .card::before{
+              content: "";
+              position: absolute;
+              height: 40%;
+              width: 130%;
+              background: white;
+              border-radius: 20px 20px 0 0;
+            }
+            
+            .card .card-content{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding: 30px;
+              position: relative;
+              z-index: 100;
+            }
+            
+            section .card .image{
+              height: 190px;
+              width: 290px;
+            
+             border-radius: 80px;
+            }
+            
+            section .card .image img{
+              height: 104%;
+              width: 102%;
+              object-fit: cover;
+              border-radius: 10px;
+            }
+            
+            .card .media-icons{
+              position: absolute;
+              top: 12px;
+              right: 95px;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+            }
+            
+            .card .media-icons i{
+              color: #7d2ae8;
+              opacity: 0.6;
+              margin-top: 10px;
+              transition: all 0.3s ease;
+              cursor: pointer;
+              margin: 10px;
+            }
+            
+            .card .media-icons i:hover{
+              opacity: 1;
+            }
+            
+            .card .name-profession{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin-top: 20px;
+              color: black;
+            } 
+            
+            .name-profession .name{
+              font-size: 20px;
+              font-weight: 600;
+            }
+            
+            .name-profession .profession{
+              font-size:15px;
+              font-weight: 500;
+            }
+            
+            .card .rating{
+              display: flex;
+              align-items: center;
+              margin-top: 18px;
+            }
+            
+            .card .rating i{
+              font-size: 18px;
+              margin: 0 2px;
+              color: #7d2ae8;
+            }
+            
+            .card .button{
+              width: 100%;
+              display: flex;
+              justify-content: space-around;
+              margin-top: 20px;
+            }
+            
+            .card .button button{
+                font-family: 'Baloo Bhaijaan 2', cursive;
+              background: #c3a3d8;
+              outline: none;
+              border: none;
+              color: #000000;
+              padding: 8px 22px;
+              border-radius: 10px;
+              font-size: 14px;
+              transition: all 0.3s ease;
+              cursor: pointer;
+            }
+            
+            .button button:hover{
+              background: #c3a3d889;
+            }
+            
+            .swiper-pagination{
+              position: absolute;
+              top: 450px;
+            }
+            
+            .swiper-pagination-bullet{
+              height: 7px;
+              width: 26px;
+              border-radius: 25px;
+              background: rgb(22, 2, 2);
+            }
+            
+            .swiper-button-next, .swiper-button-prev{
+              opacity: 0.7;
+              color: rgb(0, 0, 0);
+              transition: all 0.3s ease;
+            }
+            .swiper-button-next:hover, .swiper-button-prev:hover{
+              opacity: 1;
+              color: rgb(0, 0, 0);
+            }
+            
+
+            .sec3 h3{
+display: inline-block;
+margin-right: 550px;
+line-height: 1px;
+height: 15px;
+                background-color: #c3a3d8;
+                font-size: 30px;
+            }
+
+            table h6{
+                margin-top: 6px;
+            }
+            tr{
+  display: inline;
+  margin-right: 370px;
+}
+
+table h5{
+    display: inline;
+    font-size: 17px;
+    margin-right: -25px;
+    margin-top: -3px;
+    position: absolute;
+}
+
+.cont{
+    position: absolute;
+    width: 25px;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+.SM{
+    margin-right: -80px;
+}
+
+.SMI{
+    margin-top: 10px;
+    margin-right: -70px;
+}
+
+
+@media (max-width:1023px){
+  
+  
+
+            .swiper-pagination{
+  position: absolute;
+  top: 450px;
+}
+
+.swiper-pagination-bullet{
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: rgb(22, 2, 2);
+}
+
+.swiper-button-next, .swiper-button-prev{
+  opacity: 0.7;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: rgb(0, 0, 0);
+}
+
+            .se1{
+                margin-top: 850px;
+                margin-right: -180px;
+              position: relative;  
+              height: 450px;
+              width: 1075px;
+              display: flex;
+              align-items: center;
+            }
+
+}
+            </style>
     </head>
     <body>
         <section class="main" id="main">
@@ -21,10 +272,13 @@
    <a href="#sec1"><li>من انا ؟</li></a> 
    <a href="#container"><li>اعمالي </li></a> 
    <a href="#sec3"><li> تواصل معي</li></a> 
-       <a href="cv.pdf" class="cv">CV</a>
+   <a href="cv.pdf" class="cv">CV</a>
 
 </ul>
             </nav>
+
+
+
             <svg class="savw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><path fill="#C3A3D8" d="M224.49 197.82c-25.8-11.64-51.65-23.18-77.4-34.92-13.9-6.34-32.02-15.07-39.07-29.66 4.38.79 8.82 1.3 13.26 1.55 12.26.69 25.01-2.38 29.18-15.31 3.41-10.56-.88-22.85-10.74-28.23-10.49-5.73-24.41-3.62-32.96 4.63-7 6.75-10.2 16.72-9.65 26.36-3.68-1.19-6.84-2.41-9.08-3.44-23.99-11.06-41.64-34.78-38.98-61.99.5-5.12-7.5-5.09-8 0-2.76 28.22 14.85 54.36 39.32 67.11 5.86 3.05 12.03 5.43 18.37 7.19 3.59 11.33 12.19 20.06 21.86 26.63 13.67 9.3 29.6 15.28 44.59 22.05l55.26 24.93c4.66 2.1 8.73-4.79 4.04-6.91zM105.06 121.5c-.46-10.87 5.27-22.11 16.42-24.86 9.83-2.43 20.82 2.51 22.04 13.32 2.24 19.81-20.27 18.95-38.15 14.61-.15-1-.26-2.02-.3-3.07z"></path><path fill="#C3A3D8" d="M258.06 206.7a805.18 805.18 0 01-47.48-48.18c-3.47-3.82-9.11 1.85-5.66 5.66a806.35 806.35 0 0042.69 43.65c-21.36 7.36-41.45 17.93-59.56 31.5-4.07 3.05-.09 10 4.04 6.91 19.42-14.55 41.03-25.67 64.21-32.86 2.77-.86 4.04-4.56 1.77-6.69z"></path></svg>
         <h2 class="myname"></h2>
                 </div>
@@ -33,174 +287,231 @@
             </section>
          
 <section class="sec1" >
- 
-    <div  id="sec1">.</div>
-    <h2 class="myworkk">  من انا ؟</h2>
-    <br>  <br>  <br>  <br>
-<article id="ar1" class="wow">
-  
-<img src="img/1.png" class="pers">
-<h3 >انا رنا ربيع </h3>
-<h3>                                      مطوره واجهات اماميه ⠀ ⠀⠀ ⠀⠀ </h3>
-
-</article>
-
-<article id="ar1" class="wow">
-
-    <img src="img/2.png" class="pers">
-    <h3>خريجه علوم حاسب ⠀ ⠀⠀ ⠀⠀ </h3>
-  
-    <h3>ادرس برمجيات حاسب </h3>
-    </article>
-    
-    <br><br>
-
-    <article id="ar1"  class="wow">
-        <img src="img/3.png" class="pers">
-        <h3>
-            
-            الامن السيبراني,اساسيات الحاسب
-        <br><br><br>
-        شبكات الحاسب , انترنت الاشياء
-        </h3>
+ <H1>من انا ؟</H1>
+<table class="table">
+    <tr class="tr">
+        <th class="th"><img src="img/1.png" class="img2">
+        <p>انا رنا ربيع 
+            <br>
+            مطوره واجهات اماميه
+        </p>
         
-        </article>
-        <article id="ar1" class="wow">
-            <img src="img/4.png" class="pers">
-            <h3>HTML , CSS , JAVASCRIPT</h3>
-            <h3> BOOTSTRAP ⠀ ⠀⠀ ⠀⠀ ⠀⠀ &nbsp;  </h3>
-            </article>
+        </th>
+    </tr>
+
+    <tr class="tr">
+        <th class="th"><img src="img/2.png" class="img2">
+        <p>خريجه علوم حاسب 
+            <br>
+            ادرس برمجيات حاسب
+        </p>
+        
+        </th>
+    </tr>
+
+    <tr class="tr">
+        <th class="th"><img src="img/4.png" class="img2">
+        <p>HTML , BOOTSTRAP  
+            <br>
+           JAVASCRIPT,CSS
+        </p>
+        
+        </th>
+    </tr>
+</table>
+
+
         </section>
-        <svg class="svg1"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><path fill="#C3A3D8" d="M90.85 288.39c55.46 4.2 111.11 4.55 166.7 4.53 55.28-.03 110.6-.43 165.83 2.27 31.09 1.52 62.13 4.03 92.99 8.11v-3c-58.32-3.92-116.69-6.92-175.1-9s-116.85-3.24-175.3-3.48c-32.8-.14-65.61.02-98.4.47-1.98.03-1.87 2.78 0 3 54.72 6.59 109.9 7.93 164.97 7.54 55.22-.39 110.42-2.49 165.64-2.69 15.34-.06 30.69.04 46.03.35 14.9.31 30.3.1 44.52 5.18 1.82.65 2.61-2.25.8-2.89-12.26-4.38-25.36-4.8-38.24-5.12-13.86-.35-27.73-.5-41.6-.53-27.76-.04-55.52.46-83.27 1.05-55.3 1.17-110.63 2.68-165.93.9-31.05-1-62.08-3.07-92.93-6.78v3c58.44-.79 116.9-.67 175.34.38s116.86 3.02 175.24 5.91c32.76 1.62 65.51 3.53 98.24 5.73 1.97.13 1.86-2.75 0-3-55.06-7.27-110.62-9.52-166.11-10.16s-110.67.28-166-.68c-31.17-.54-62.33-1.7-93.41-4.05-1.93-.15-1.92 2.86 0 3z"></path><path fill="#C3A3D8" d="M491.13 304c11.55-1.18 23.09-2.36 34.64-3.55 1.9-.19 1.92-3.2 0-3-11.55 1.18-23.09 2.36-34.64 3.55-1.9.19-1.92 3.2 0 3zM74.84 285.5c10.4 7.72 23.2 10.64 35.84 12.17 14.75 1.79 29.68 2.45 44.52 3.03 31.25 1.23 62.55 1.3 93.82 1.71 31.18.41 62.36.87 93.54 1.65s62.31 1.9 93.43 3.62 62.49 4.06 93.63 7.28c3.82.39 7.63.8 11.45 1.22 1.66.18 2.07-2.71.4-2.95-59.18-8.28-118.38-16.56-177.89-22.07-59.56-5.52-119.47-8.21-179.26-5.33-33.55 1.61-67 4.79-100.43 7.96-1.91.18-1.92 3.18 0 3 29.75-2.83 59.52-5.65 89.36-7.38 29.74-1.72 59.53-2.15 89.31-1.42 59.55 1.46 118.91 7.27 178 14.63 33.42 4.16 66.77 8.83 100.12 13.5l.4-2.95c-30.82-3.4-61.73-5.91-92.67-7.79-30.96-1.87-61.95-3.11-92.95-3.99-30.86-.87-61.74-1.39-92.61-1.81-30.98-.43-61.98-.56-92.95-1.41-15.46-.42-30.91-1.09-46.33-2.3-13.2-1.03-27.02-2.2-39.11-8.06a50.715 50.715 0 01-8.1-4.92c-1.55-1.15-3.05 1.45-1.51 2.59z"></path><path fill="#C3A3D8" d="M70.49 294.1c26.97 8.91 55.43 11.81 83.71 12.39s58.71-.79 88.03-1.49c30.26-.72 60.52-1.28 90.79-1.26 30.38.02 60.77.61 91.12 2.2 15.09.79 30.17 1.82 45.22 3.15s29.99 2.51 44.68 5.55c3.56.74 7.08 1.6 10.57 2.61l.8-2.89c-48.69-9.91-97.91-17.21-147.38-21.86-49.63-4.66-99.51-6.65-149.36-5.94-27.94.4-55.86 1.65-83.72 3.73-1.96.15-1.9 2.78 0 3 22.46 2.59 45.09 2.05 67.64 1.45 22.51-.6 45.01-.82 67.53-.33 44.98.97 89.9 4.35 134.52 10.13 25.4 3.29 50.7 7.38 75.86 12.21 1.88.36 2.7-2.48.8-2.89a1506.59 1506.59 0 00-158.61-25.41 1524.89 1524.89 0 00-45.23-4.09v3c30.72 1.63 61.44 3.26 92.12 5.54 30.81 2.29 61.58 5.24 92.18 9.51 17.26 2.41 34.46 5.26 51.56 8.61l.4-2.95c-46.04-4.08-92.07-8.17-138.11-12.25-12.94-1.15-25.88-2.3-38.81-3.44-1.92-.17-1.91 2.83 0 3 46.04 4.08 92.07 8.17 138.11 12.25 12.94 1.15 25.88 2.3 38.81 3.44 1.67.15 2.06-2.62.4-2.95-30.28-5.94-60.86-10.25-91.54-13.51-30.88-3.28-61.86-5.52-92.85-7.38-17.42-1.04-34.85-1.97-52.27-2.89-1.94-.1-1.91 2.86 0 3 53.15 4.02 106.08 10.84 158.51 20.5 14.89 2.74 29.74 5.71 44.54 8.9l.8-2.89c-44.31-8.52-89.07-14.68-134.04-18.41-45.14-3.75-90.47-5.04-135.74-3.93-25.52.62-51.13 1.72-76.56-1.22v3c49.57-3.7 99.32-4.76 149-3.12 49.54 1.63 99 5.91 148.08 12.84 27.67 3.91 55.21 8.66 82.59 14.24 1.88.38 2.67-2.35.8-2.89-14.03-4.05-28.59-5.6-43.08-7.05-15.04-1.5-30.11-2.7-45.19-3.63-30.17-1.87-60.4-2.7-90.63-2.89-30.26-.19-60.53.24-90.78.91-29.71.65-59.44 1.94-89.16 1.93-28.59-.01-57.46-1.73-85.15-9.34-3.4-.93-6.77-1.96-10.11-3.07-1.84-.61-2.63 2.29-.8 2.89z"></path><path fill="#C3A3D8" d="M471.96 307.14c1.93 0 1.93-3 0-3s-1.93 3 0 3zM130.15 290.02l-21.25 5.67c-1.86.5-1.07 3.39.8 2.89l21.25-5.67c1.86-.5 1.07-3.39-.8-2.89z"></path><path fill="#C3A3D8" d="M65.63 310.37l97.14-15.6c9.2-1.48 18.41-2.96 27.61-4.43 1.57-.25 1.27-2.47 0-2.89-7.77-2.59-16.06-2.05-24.11-1.64-8.73.44-17.45.98-26.17 1.61a1251.52 1251.52 0 00-52.21 4.87c-9.8 1.12-19.58 2.37-29.36 3.72-1.66.23-1.28 3.09.4 2.95 17.77-1.55 35.54-2.98 53.33-4.28s35.58-2.47 53.39-3.52c10.1-.59 20.21-1.15 30.31-1.66 1.92-.1 1.94-3.08 0-3a1376.918 1376.918 0 00-80.68 5.9c-1.56.16-2.18 2.56-.4 2.95 9.32 2.01 18.9 2.63 28.4 1.78 1.91-.17 1.93-3.17 0-3-9.24.83-18.53.29-27.6-1.67l-.4 2.95c20.9-2.15 41.85-3.82 62.83-5.01 5.95-.34 11.9-.63 17.85-.89v-3c-17.81.9-35.62 1.93-53.41 3.09a3804.159 3804.159 0 00-83.61 6.37l.4 2.95c17.1-2.37 34.25-4.37 51.44-6.02 17.15-1.65 34.34-2.93 51.55-3.87 9.01-.49 18.54-1.59 27.27 1.32v-2.89l-97.14 15.6c-9.2 1.48-18.41 2.96-27.61 4.43-1.9.31-1.09 3.2.8 2.89z"></path></svg>
-        <br><br><br><br><br><br><br>
-        <section class="sec2">
-            <svg id="wave2" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 140" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(195, 163, 216, 1)" offset="0%"></stop><stop stop-color="rgba(195, 163, 216, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,112L34.3,112C68.6,112,137,112,206,109.7C274.3,107,343,103,411,98C480,93,549,89,617,93.3C685.7,98,754,112,823,109.7C891.4,107,960,89,1029,84C1097.1,79,1166,89,1234,98C1302.9,107,1371,117,1440,100.3C1508.6,84,1577,42,1646,42C1714.3,42,1783,84,1851,95.7C1920,107,1989,89,2057,79.3C2125.7,70,2194,70,2263,72.3C2331.4,75,2400,79,2469,88.7C2537.1,98,2606,112,2674,116.7C2742.9,121,2811,117,2880,116.7C2948.6,117,3017,121,3086,107.3C3154.3,93,3223,61,3291,49C3360,37,3429,47,3497,56C3565.7,65,3634,75,3703,70C3771.4,65,3840,47,3909,42C3977.1,37,4046,47,4114,51.3C4182.9,56,4251,56,4320,67.7C4388.6,79,4457,103,4526,100.3C4594.3,98,4663,70,4731,51.3C4800,33,4869,23,4903,18.7L4937.1,14L4937.1,140L4902.9,140C4868.6,140,4800,140,4731,140C4662.9,140,4594,140,4526,140C4457.1,140,4389,140,4320,140C4251.4,140,4183,140,4114,140C4045.7,140,3977,140,3909,140C3840,140,3771,140,3703,140C3634.3,140,3566,140,3497,140C3428.6,140,3360,140,3291,140C3222.9,140,3154,140,3086,140C3017.1,140,2949,140,2880,140C2811.4,140,2743,140,2674,140C2605.7,140,2537,140,2469,140C2400,140,2331,140,2263,140C2194.3,140,2126,140,2057,140C1988.6,140,1920,140,1851,140C1782.9,140,1714,140,1646,140C1577.1,140,1509,140,1440,140C1371.4,140,1303,140,1234,140C1165.7,140,1097,140,1029,140C960,140,891,140,823,140C754.3,140,686,140,617,140C548.6,140,480,140,411,140C342.9,140,274,140,206,140C137.1,140,69,140,34,140L0,140Z"></path></svg>
-<h2 class="mywork" id="container">  اعمالي</h2>
-<br> <br>  <br><br><br>
-<br>
-<br> <br>  <br><br><br>
-<div class="mywoork">
-<div class="container" >
-   <div id="card" class="wow">
-        <img src="img/book table.png" class="img">
-    <div class="intro">
-        <a href="https://ranarabiie.github.io/delicioso2/"><h1>delicioso</h1></a>
-    <p> موقع لمطعم اسباني </p>
-    </div>
-    </div>
-</div>
+        <svg id="wave2" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 160" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(254, 230, 245, 1)" offset="0%"></stop><stop stop-color="rgba(254, 230, 245, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,48L34.3,61.3C68.6,75,137,101,206,106.7C274.3,112,343,96,411,77.3C480,59,549,37,617,34.7C685.7,32,754,48,823,45.3C891.4,43,960,21,1029,24C1097.1,27,1166,53,1234,64C1302.9,75,1371,69,1440,72C1508.6,75,1577,85,1646,74.7C1714.3,64,1783,32,1851,34.7C1920,37,1989,75,2057,98.7C2125.7,123,2194,133,2263,130.7C2331.4,128,2400,112,2469,93.3C2537.1,75,2606,53,2674,50.7C2742.9,48,2811,64,2880,66.7C2948.6,69,3017,59,3086,48C3154.3,37,3223,27,3291,32C3360,37,3429,59,3497,72C3565.7,85,3634,91,3703,101.3C3771.4,112,3840,128,3909,114.7C3977.1,101,4046,59,4114,50.7C4182.9,43,4251,69,4320,72C4388.6,75,4457,53,4526,45.3C4594.3,37,4663,43,4731,37.3C4800,32,4869,16,4903,8L4937.1,0L4937.1,160L4902.9,160C4868.6,160,4800,160,4731,160C4662.9,160,4594,160,4526,160C4457.1,160,4389,160,4320,160C4251.4,160,4183,160,4114,160C4045.7,160,3977,160,3909,160C3840,160,3771,160,3703,160C3634.3,160,3566,160,3497,160C3428.6,160,3360,160,3291,160C3222.9,160,3154,160,3086,160C3017.1,160,2949,160,2880,160C2811.4,160,2743,160,2674,160C2605.7,160,2537,160,2469,160C2400,160,2331,160,2263,160C2194.3,160,2126,160,2057,160C1988.6,160,1920,160,1851,160C1782.9,160,1714,160,1646,160C1577.1,160,1509,160,1440,160C1371.4,160,1303,160,1234,160C1165.7,160,1097,160,1029,160C960,160,891,160,823,160C754.3,160,686,160,617,160C548.6,160,480,160,411,160C342.9,160,274,160,206,160C137.1,160,69,160,34,160L0,160Z"></path></svg>
+        <br>
 
-    <div class="container3" >
-    <div id="card3" class="wow">
-        <img src="img/k1.png" class="img">
-    <div class="intro3">
-        <a href="https://ranarabiie.github.io/kittens2/"><h1>Kittens</h1></a>
-    <p>موقع لمستلزمات القطط </p>
-    </div>
-    </div>
-</div>
-  
-
-
-<div class="container4"> 
-<div  id="card4" class="wow">
-    <img src="img/بدون عنوان.png" class="img">
-<div class="intro4">
-   <a href="https://ranarabiie.github.io/Fotksa/"> <h1>FotKsa</h1></a>
-    <p> موقع  لكره القدم السعوديه</p>
-</div>
-</div>
-
-</div>
-
-<div class="container5"> 
-    <div  id="card5" class="wow">
-        <img src="img/reeof.png" class="img">
-    <div class="intro5">
-        <a href="https://ranarabiie.github.io/reoof/"><h1>Reoof</h1></a>
-    <p> موقع لبيع العطور</p>
-    </div>
-    </div>
-    
-    </div>
-
-    <div class="container6"> 
-        <div  id="card6" class="wow">
-            <img src="img/ahjiz.png" class="img">
-        <div class="intro6">
-        <a href="https://ranarabiie.github.io/ahjiz/"><h1>ahjiz</h1></a>
-        <p> موقع لحجز موعد للمطاعم</p>
-        </div>
-        </div>
+     
+        <section class="se1">
+            <h2>اعمالي</h2>
+            <div class="swiper mySwiper container">
+              <div class="swiper-wrapper content">
         
+                <div class="swiper-slide card">
+                  <div class="card-content">
+                    <div class="image">
+                      <img src="img/personal.png" alt="">
+                    </div>
+                    <div class="name-profession">
+                      <span class="name">ملف اعمال </span>
+                      <span class="profession">موقع شخصي</span>
+                      <span class="profession">HTML , CSS</span>
+                    </div>
+                    <div class="button">
+                      <a href="https://ranarabiie.github.io/Persona-website/"><button class="aboutMe">زياره الموقع</button></a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="swiper-slide card">
+                  <div class="card-content">
+                    <div class="image">
+                      <img src="img/dc.png" alt="">
+                    </div>
+                    <div class="name-profession">
+                      <span class="name">DC architectural</span>
+                      <span class="profession">موقع لتصميم المعماري</span>
+                      <span class="profession">HTML , CSS</span>
+                    </div>
+                    <div class="button">
+                      <button class="aboutMe">زياره الموقع</button>
+                    </div>
+                  </div>
+                </div> <div class="swiper-slide card">
+                  <div class="card-content">
+                    <div class="image">
+                      <img src="img/kittens store.png" alt="">
+                    </div>
+                    <div class="name-profession">
+                      <span class="name">Kittens store</span>
+                      <span class="profession">تطوير لموقع مستلزمات قطط</span>
+                      <span class="profession">HTML ,CSS ,JS</span>
+                    </div>
+                    <div class="button">
+                     <a href=" https://ranarabiie.github.io/kittens-store/"><button class="aboutMe">زياره الموقع</button></a> 
+                    </div>
+                  </div>
+                </div> <div class="swiper-slide card">
+                  <div class="card-content">
+                    <div class="image">
+                      <img src="img/book table.png" alt="">
+                    </div>
+                    <div class="name-profession">
+                      <span class="name">Delicioso</span>
+                      <span class="profession">موقع لمطعم اسباني</span>
+                      <span class="profession">HTML , CSS , JS</span>
+                    </div>
+                    <div class="button">
+                   <a href=" https://ranarabiie.github.io/delicioso2/">   <button class="aboutMe">زياره الموقع</button></a>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="swiper-slide card">
+                  <div class="card-content">
+                    <div class="image">
+                      <img src="img/بدون عنوان.png" alt="">
+                    </div>
+                    <div class="name-profession">
+                      <span class="name">FOTKSA</span>
+                      <span class="profession">موقع لكره القدم السعودية</span>
+                      <span class="profession">HTML , CSS, JS</span>
+                    </div>
+                    <div class="button">
+                     <a href=" https://ranarabiie.github.io/Fotksa/"> <button class="aboutMe">زياره الموقع</button></a>
+                    </div>
+                  </div>
+                </div>
 
-        <div class="container7"> 
-            <div  id="card7" class="wow">
-                <img src="img/kittens store.png" class="img">
-            <div class="intro7">
-            <a href="https://ranarabiie.github.io/kittens-store/"><h1>Kittens store</h1></a>
-            <p> تطوير لموقع Kittens</p>
-            </div>
-            </div>
-        </div>
-        </div>
+                <div class="swiper-slide card">
+                  <div class="card-content">
+                    <div class="image">
+                      <img src="img/ahjiz.png" alt="">
+                    </div>
+                    <div class="name-profession">
+                      <span class="name">AHJAZ</span>
+                      <span class="profession">موقع لحجز مطاعم بالرياض</span>
+                      <span class="profession">HTML , CSS, JS</span>
+                    </div>
+                    <div class="button">
+                    <a href="https://ranarabiie.github.io/ahjiz/"> <button class="aboutMe">زياره الموقع</button></a> 
+                    </div>
+                  </div>
 
-<div class="map">
-    <div class="line">x</div>
-    <div id="square"></div>
-    <div class="circle"></div>
-    <div id="square2"></div>
-    <div class="circle2"></div>
-    <div id="square3"></div>
-    <div class="circle3"></div>
-    <div id="square4"></div>
-    <div class="circle4"></div>
-    <div id="square5"></div>
-    <div class="circle5"></div>
-    <div id="square6"></div>
-    <div class="circle6"></div>
-    </div>
+                </div>
+    
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                      <div class="image">
+                        <img src="img/k1.png" alt="">
+                      </div>
+                      <div class="name-profession">
+                        <span class="name">kittens</span>
+                        <span class="profession">موقع لمستلزمات القطط</span>
+                        <span class="profession">HTML , CSS ,JS</span>
+                      </div>
+                      <div class="button">
+                       <a href="https://ranarabiie.github.io/kittens2/"> <button class="aboutMe">زياره الموقع</button></a>
+                      </div>
+                    </div>
+  
+                  </div>
 
-</section>
+                  <div class="swiper-slide card">
+                    <div class="card-content">
+                      <div class="image">
+                        <img src="img/reeof.png" alt="">
+                      </div>
+                      <div class="name-profession">
+                        <span class="name">REOOF</span>
+                        <span class="profession">موقع لبيع العطور</span>
+                        <span class="profession">HTML , CSS , JS</span>
+                      </div>
+                      <div class="button">
+                      <a href="https://ranarabiie.github.io/reoof/"> <button class="aboutMe">زياره الموقع</button></a> 
+                      </div>
+                    </div>
+  
+                  </div>
+              </div></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            
+            
+            </section>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<svg id="wave5" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 140" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(195, 163, 216, 1)" offset="0%"></stop><stop stop-color="rgba(195, 163, 216, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,84L34.3,70C68.6,56,137,28,206,28C274.3,28,343,56,411,77C480,98,549,112,617,102.7C685.7,93,754,61,823,39.7C891.4,19,960,9,1029,23.3C1097.1,37,1166,75,1234,74.7C1302.9,75,1371,37,1440,39.7C1508.6,42,1577,84,1646,105C1714.3,126,1783,126,1851,121.3C1920,117,1989,107,2057,86.3C2125.7,65,2194,33,2263,37.3C2331.4,42,2400,84,2469,100.3C2537.1,117,2606,107,2674,88.7C2742.9,70,2811,42,2880,44.3C2948.6,47,3017,79,3086,98C3154.3,117,3223,121,3291,116.7C3360,112,3429,98,3497,91C3565.7,84,3634,84,3703,79.3C3771.4,75,3840,65,3909,60.7C3977.1,56,4046,56,4114,60.7C4182.9,65,4251,75,4320,67.7C4388.6,61,4457,37,4526,37.3C4594.3,37,4663,61,4731,79.3C4800,98,4869,112,4903,119L4937.1,126L4937.1,140L4902.9,140C4868.6,140,4800,140,4731,140C4662.9,140,4594,140,4526,140C4457.1,140,4389,140,4320,140C4251.4,140,4183,140,4114,140C4045.7,140,3977,140,3909,140C3840,140,3771,140,3703,140C3634.3,140,3566,140,3497,140C3428.6,140,3360,140,3291,140C3222.9,140,3154,140,3086,140C3017.1,140,2949,140,2880,140C2811.4,140,2743,140,2674,140C2605.7,140,2537,140,2469,140C2400,140,2331,140,2263,140C2194.3,140,2126,140,2057,140C1988.6,140,1920,140,1851,140C1782.9,140,1714,140,1646,140C1577.1,140,1509,140,1440,140C1371.4,140,1303,140,1234,140C1165.7,140,1097,140,1029,140C960,140,891,140,823,140C754.3,140,686,140,617,140C548.6,140,480,140,411,140C342.9,140,274,140,206,140C137.1,140,69,140,34,140L0,140Z"></path></svg>
+            <br> <br> <br>
 <section class="sec3">
-    <h2 class="mywork3" id="sec3">  تواصل معي</h2>
-
-<form action="mailto:ranarabiie@gmail.com"  method="post" enctype="text/plain">
-<h5>Send a Message</h5>
-<label for="#">Name</label>
-<label for="#" class="email"  >Email</label>
+    <h3>تواصل معي </h3>
+<table>
+<tr>
+    <th>
+<h5 class="SM">  Social Media </h5><img src="img/network.png" class="cont" >
 <br>
-<input type="email" name="email" id="email">
-
-<input type="text" id="name">
-<br><br><br>
-<label for="#">  . . Your Message </label>
-<br>
-<textarea name="massege"  cols="30" rows="10" ></textarea>
-<br>
-<button type="submit">Send</button>
-</form>
-
-
-<div class="content">
-<h4>معلومات التواصل</h4>
-<img src="img/gmail.png" class="gamil">
-<h5> ranarabiie@gmail.com</h5>
-<a href="https://twitter.com/ranarabiie"><img src="img/twitter.png" class="tw"></a>
-<a href="https://www.linkedin.com/in/ranarabiie?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="img/linkend.png" class="li"></a>
+<div class="SMI">
+<a href="https://www.linkedin.com/in/ranarabiie/"><img src="img/linkedin.png" width="30px" ></a>
+<a href="https://twitter.com/ranarabiie"><img src="img/twitter.png" width="30px" ></a>
 </div>
+</th>
+</tr>
 
-<h3 class="made">Made and designed by Rana Rabie</h3>
+
+<tr>
+    <th>
+<h5>Email</h5><img src="img/mail.png" class="cont" > 
+<br>
+<h6>ranarabiie@gmail.com</h6>
+    </th>
+</tr>
+</table>
 
 </section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
 
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  slidesPerGroup: 3,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
+        </script>
         <script >
             let myName = " انا رنا  ..  ";
             let index =1;
