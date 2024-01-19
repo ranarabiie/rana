@@ -279,7 +279,7 @@ margin-top: -210;
 .table{
 
   margin-top: 250px;
-  margin-right: 60px;
+  margin-right: 40px;
 }
 
 .th{
@@ -287,13 +287,13 @@ margin-top: -210;
   border-radius: 10px;
   background-color:#d5b7e16c;
 text-align: center;
-font-size: 27px;
+font-size: 30px;
 }
 
 #wave2{
   width: 1157px;
   position: absolute;
-margin-top: 1350px;
+margin-top: 1150px;
 }
 
 }
