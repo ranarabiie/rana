@@ -239,7 +239,7 @@ display: none;  }
 
 
 .myname{
-  position:fixed;
+  position:absolute;
   font-size: 90px;
 margin-right: 530px;
 margin-top: 650px;
