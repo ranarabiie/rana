@@ -228,6 +228,7 @@ font-size: 23px;
 
 @media (max-width:1023px){
 
+
 nav {
   margin-top: 20px;
 }
@@ -245,11 +246,7 @@ margin-right: 530px;
 margin-top: 650px;
 }
 
-.img1{
-margin-top: 100px;
-  width: 396px;
-  
-}
+
 
 
 .savw{
@@ -270,7 +267,7 @@ margin-top: -210;
 }
 
 .img2{
-  width: 150px;
+  width: 200px;
 
 }
 
@@ -280,25 +277,23 @@ margin-top: -210;
   display: inline;
 }
 .table{
-  margin-top: 50px;
-  margin-right: 20px;
+
+  margin-top: 250px;
+  margin-right: 60px;
 }
 
 .th{
-  padding: 70px;
+  padding: 30px;
   border-radius: 10px;
   background-color:#d5b7e16c;
 text-align: center;
-font-size: 23px;
+font-size: 33px;
 }
 
 #wave2{
   width: 1157px;
   position: absolute;
-margin-top: 600px;
+margin-top: 1150px;
 }
-
-
-
 
 }
